@@ -237,7 +237,7 @@ video {
 .projects-wrap {
     width: 100%;
     min-height: 100%;
-    padding: 28px 48px 28px 64px;
+    padding: 28px 48px 28px 96px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -471,7 +471,7 @@ video {
 .experience-wrap {
     width: 100%;
     min-height: 100%;
-    padding: 28px 48px 28px 64px;
+    padding: 28px 48px 28px 96px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -764,7 +764,7 @@ video {
 .toolkit-wrap {
     width: 100%;
     min-height: 100%;
-    padding: 28px 48px 28px 64px;
+    padding: 28px 48px 28px 96px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
