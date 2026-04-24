@@ -77,7 +77,7 @@ video {
 
 /* Contact Section */
 .contact-section-label {
-    font-size: 11px;
+    font-size: 13px;
     font-weight: 700;
     letter-spacing: 0.15em;
     color: #c3323a;
@@ -128,8 +128,8 @@ video {
 .contact-btn {
     display: inline-flex;
     align-items: center;
-    padding: 13px 22px;
-    font-size: 11px;
+    padding: 14px 26px;
+    font-size: 13px;
     font-weight: 700;
     letter-spacing: 0.12em;
     text-transform: uppercase;
@@ -158,16 +158,16 @@ video {
 }
 .contact-info-row {
     display: grid;
-    grid-template-columns: 110px 1fr auto;
+    grid-template-columns: 120px 1fr auto;
     align-items: center;
     gap: 16px;
-    padding: 14px 18px;
+    padding: 16px 20px;
 }
 .contact-info-row + .contact-info-row {
     border-top: 1px solid rgba(255,255,255,0.07);
 }
 .contact-info-label {
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 700;
     letter-spacing: 0.15em;
     color: #666;
@@ -179,7 +179,7 @@ video {
     font-weight: 500;
 }
 .contact-info-copy {
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 700;
     letter-spacing: 0.1em;
     color: #c3323a;
@@ -213,14 +213,14 @@ video {
     align-items: center;
 }
 .contact-footer-left {
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 700;
     letter-spacing: 0.15em;
     color: #444;
     text-transform: uppercase;
 }
 .contact-footer-right {
-    font-size: 11px;
+    font-size: 13px;
     color: #444;
     font-style: italic;
 }
@@ -237,7 +237,7 @@ video {
 .projects-wrap {
     width: 100%;
     min-height: 100%;
-    padding: 34px 56px 34px 86px;
+    padding: 28px 48px 28px 64px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -259,7 +259,7 @@ video {
 }
 .projects-header-left { flex: 1; }
 .projects-label {
-    font-size: 11px;
+    font-size: 13px;
     font-weight: 700;
     letter-spacing: 0.15em;
     color: #c3323a;
@@ -278,7 +278,7 @@ video {
 }
 .projects-label span { color: #fff; }
 .projects-headline {
-    font-size: clamp(24px, 2.9vw, 44px);
+    font-size: clamp(28px, 3.2vw, 52px);
     font-weight: 900;
     line-height: 1.1;
     color: #fff;
@@ -288,7 +288,7 @@ video {
 .projects-header-right { max-width: 280px; flex-shrink: 0; }
 .projects-intro {
     color: #666;
-    font-size: 13px;
+    font-size: 15px;
     line-height: 1.5;
     margin: 0;
 }
@@ -354,28 +354,28 @@ video {
 
 /* Shared project elements */
 .project-num-label {
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 700;
     letter-spacing: 0.15em;
     color: #c3323a;
     text-transform: uppercase;
 }
 .project-type-tags {
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 600;
     letter-spacing: 0.12em;
     color: #555;
     text-transform: uppercase;
 }
 .project-title {
-    font-size: clamp(22px, 2.1vw, 34px);
+    font-size: clamp(24px, 2.4vw, 40px);
     font-weight: 800;
     color: #fff;
     margin: 2px 0;
     line-height: 1.15;
 }
 .project-body {
-    font-size: 12px;
+    font-size: 13px;
     color: #888;
     line-height: 1.55;
     margin: 0;
@@ -395,7 +395,7 @@ video {
     gap: 5px;
 }
 .project-tag {
-    font-size: 10px;
+    font-size: 11px;
     font-weight: 600;
     color: #999;
     background: rgba(255,255,255,0.05);
@@ -417,7 +417,7 @@ video {
     line-height: 1;
 }
 .project-metric-sub {
-    font-size: 9px;
+    font-size: 11px;
     font-weight: 700;
     letter-spacing: 0.12em;
     color: #555;
@@ -435,7 +435,7 @@ video {
 .project-card {
     border: 1px solid rgba(255,255,255,0.08);
     border-radius: 6px;
-    padding: 12px 14px;
+    padding: 16px 18px;
     display: flex;
     flex-direction: column;
     gap: 4px;
@@ -446,13 +446,13 @@ video {
     align-items: center;
 }
 .project-num-small {
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 700;
     color: #c3323a;
     letter-spacing: 0.12em;
 }
 .project-card-title {
-    font-size: clamp(16px, 1.4vw, 22px);
+    font-size: clamp(18px, 1.6vw, 26px);
     font-weight: 800;
     color: #fff;
     margin: 0;
@@ -471,7 +471,7 @@ video {
 .experience-wrap {
     width: 100%;
     min-height: 100%;
-    padding: 34px 56px 34px 86px;
+    padding: 28px 48px 28px 64px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -496,7 +496,7 @@ video {
 }
 .experience-headline {
     margin: 0;
-    font-size: clamp(28px, 3vw, 52px);
+    font-size: clamp(32px, 3.5vw, 60px);
     font-weight: 900;
     line-height: 0.95;
     color: #0b0b10;
@@ -554,7 +554,7 @@ video {
     background: #c3323a;
 }
 .experience-sidebar-meta {
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 700;
     letter-spacing: 0.22em;
     color: #7d7d7d;
@@ -565,7 +565,7 @@ video {
 }
 .experience-sidebar-company {
     margin-top: 4px;
-    font-size: clamp(16px, 1.35vw, 28px);
+    font-size: clamp(18px, 1.5vw, 32px);
     line-height: 1;
     font-weight: 800;
     color: #111;
@@ -585,7 +585,7 @@ video {
     gap: 12px;
 }
 .experience-role {
-    font-size: 11px;
+    font-size: 13px;
     font-weight: 700;
     letter-spacing: 0.2em;
     text-transform: uppercase;
@@ -593,7 +593,7 @@ video {
 }
 .experience-company {
     margin: 4px 0 0;
-    font-size: clamp(22px, 1.8vw, 32px);
+    font-size: clamp(24px, 2vw, 38px);
     line-height: 1;
     font-weight: 800;
     color: #111;
@@ -612,19 +612,19 @@ video {
     display: flex;
     gap: 12px;
     align-items: flex-start;
-    padding: 9px 0;
+    padding: 12px 0;
     border-bottom: 1px solid #d8d8d8;
 }
 .experience-point-num {
-    width: 18px;
+    width: 20px;
     flex-shrink: 0;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 700;
     letter-spacing: 0.12em;
     color: #c3323a;
 }
 .experience-point-text {
-    font-size: 13px;
+    font-size: 14px;
     line-height: 1.4;
     color: #1f1f1f;
 }
@@ -634,8 +634,8 @@ video {
     gap: 6px;
 }
 .experience-tag {
-    padding: 5px 8px 4px;
-    font-size: 10px;
+    padding: 6px 10px 5px;
+    font-size: 12px;
     font-weight: 700;
     color: #242424;
     background: #ebebeb;
@@ -645,7 +645,7 @@ video {
 .experience-link {
     align-self: flex-start;
     margin-top: 2px;
-    font-size: 11px;
+    font-size: 13px;
     font-weight: 700;
     letter-spacing: 0.12em;
     text-transform: uppercase;
@@ -758,13 +758,13 @@ video {
     padding-bottom: 0;
 }
 .vlt-section[data-anchor="Experience"] .vlt-section__ken-burn-background {
-    opacity: 0.22 !important;
-    filter: grayscale(100%);
+    opacity: 1 !important;
+    filter: grayscale(0%) brightness(1.8);
 }
 .toolkit-wrap {
     width: 100%;
     min-height: 100%;
-    padding: 34px 56px 34px 86px;
+    padding: 28px 48px 28px 64px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -786,17 +786,17 @@ video {
 }
 .toolkit-header-left { flex: 1; }
 .toolkit-headline {
-    font-size: clamp(20px, 2.2vw, 34px);
+    font-size: clamp(24px, 2.6vw, 42px);
     font-weight: 900;
     line-height: 1.1;
-    color: #111;
+    color: #fff;
     margin: 0;
 }
 .toolkit-accent { color: #c3323a; }
 .toolkit-header-right { max-width: 240px; flex-shrink: 0; }
 .toolkit-intro {
-    color: #666;
-    font-size: 13px;
+    color: #ccc;
+    font-size: 15px;
     line-height: 1.4;
     margin: 0;
 }
@@ -804,42 +804,42 @@ video {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 0;
-    border: 1px solid #e0e0e0;
+    border: 1px solid rgba(255,255,255,0.15);
     border-radius: 6px;
     overflow: hidden;
-    background: rgba(255,255,255,0.82);
+    background: rgba(0,0,0,0.35);
 }
 .toolkit-skills-col {
-    padding: 11px 12px;
+    padding: 14px 16px;
     display: flex;
     flex-direction: column;
 }
 .toolkit-skills-col + .toolkit-skills-col {
-    border-left: 1px solid #e0e0e0;
+    border-left: 1px solid rgba(255,255,255,0.12);
 }
 .toolkit-skills-colhead {
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 700;
     letter-spacing: 0.15em;
     text-transform: uppercase;
-    color: #999;
+    color: #aaa;
     margin-bottom: 8px;
 }
 .toolkit-skill-row {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 4px 0;
-    border-bottom: 1px solid #f0f0f0;
+    padding: 7px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
 }
 .toolkit-skill-row:last-child { border-bottom: none; }
 .toolkit-skill-name {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 600;
-    color: #1a1a1a;
+    color: #fff;
 }
 .toolkit-skill-yrs {
-    font-size: 9px;
+    font-size: 11px;
     font-weight: 700;
     letter-spacing: 0.1em;
     color: #c3323a;
@@ -847,13 +847,14 @@ video {
 }
 .toolkit-edu-card {
     display: flex;
-    background: rgba(17,17,17,0.86);
+    background: rgba(0,0,0,0.35);
+    border: 1px solid rgba(255,255,255,0.12);
     border-radius: 6px;
     overflow: hidden;
 }
 .toolkit-edu-left {
-    flex: 0 0 260px;
-    padding: 12px 14px;
+    flex: 0 0 280px;
+    padding: 16px 18px;
     display: flex;
     flex-direction: column;
     gap: 8px;
@@ -861,7 +862,7 @@ video {
 }
 .toolkit-edu-section { display: flex; flex-direction: column; gap: 3px; }
 .toolkit-edu-school-label {
-    font-size: 9px;
+    font-size: 11px;
     font-weight: 700;
     letter-spacing: 0.15em;
     color: #c3323a;
@@ -869,19 +870,19 @@ video {
     margin-bottom: 4px;
 }
 .toolkit-edu-school-name {
-    font-size: 16px;
+    font-size: 19px;
     font-weight: 800;
     color: #fff;
     line-height: 1.2;
 }
 .toolkit-edu-school-sub {
-    font-size: 10px;
-    color: #666;
+    font-size: 12px;
+    color: #aaa;
     font-weight: 500;
 }
 .toolkit-edu-school-detail {
-    font-size: 11px;
-    color: #888;
+    font-size: 13px;
+    color: #bbb;
 }
 .toolkit-edu-divider {
     height: 1px;
@@ -889,13 +890,13 @@ video {
 }
 .toolkit-edu-right {
     flex: 1;
-    padding: 12px 14px;
+    padding: 16px 18px;
 }
 .toolkit-edu-courses-label {
-    font-size: 9px;
+    font-size: 11px;
     font-weight: 700;
     letter-spacing: 0.15em;
-    color: #555;
+    color: #aaa;
     text-transform: uppercase;
     margin-bottom: 6px;
 }
@@ -909,7 +910,7 @@ video {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 4px 0;
+    padding: 7px 0;
     border-bottom: 1px solid rgba(255,255,255,0.06);
     gap: 12px;
 }
@@ -918,12 +919,12 @@ video {
     border-bottom: none;
 }
 .toolkit-edu-course-name {
-    font-size: 11px;
-    color: #aaa;
+    font-size: 13px;
+    color: #ddd;
     font-weight: 500;
 }
 .toolkit-edu-course-grade {
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 800;
     color: #22c55e;
     flex-shrink: 0;
