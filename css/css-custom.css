@@ -911,6 +911,14 @@ video {
     .projects-wrap {
         padding: 40px 24px 18px 72px;
     }
+    .projects-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+    .projects-header-right {
+        max-width: 100%;
+    }
     .experience-wrap {
         padding: 40px 24px 18px 72px;
     }
