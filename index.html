@@ -93,37 +93,63 @@
 		<div class="vlt-fullpage-slider" data-loop-top="" data-loop-bottom="" data-speed="800">
 			<!--Home-->
 			<!--Section-->
-			<div class="vlt-section pp-scrollable" data-anchor="Home" data-brightness="dark" style="background-image: url(assets/img/root/red-background.jpg);">
+			<div class="vlt-section pp-scrollable" data-anchor="Home" data-brightness="dark" style="background-color:#0a0a0a;">
 			<video width="100%" height="100%" autoplay="" loop="" muted="">
 				<source src="assets/img/video3.mp4" type="video/mp4">
 			</source></video>
 				<div class="vlt-section__vertical-align">
 					<div class="vlt-section__content">
-						<div class="container">
-							<div class="row">
-								<div class="col-lg-7 offset-lg-1">
-									<!--Animated Block-->
-									<div class="vlt-animated-block" style="animation-delay:0s; animation-duration:700ms;">
-										<h5 class="vlt-display-1 has-white-color">Pranav Yerramaneni</h5>
-										<div class="vlt-gap-10"></div>
-										<h1 class="vlt-large-heading has-white-color">Robotics for <br>3+ Years</h1>
-										<div class="vlt-gap-40"></div>
-										<div class="row">
-											<div class="col-auto">
-												<!--Counter Up Small-->
-												<div class="vlt-counter-up-small" data-ending-number="5000" data-animation-speed="1500" data-delimiter=""><span class="counter">0</span> <sup></sup>
-													<h6 class="vlt-display-1">⠀⠀⠀Impacted <br>⠀⠀⠀People</h6>
-												</div>
-												<div class="vlt-gap-20--sm"></div>
-											</div>
-											<div class="col-auto">
-												<!--Counter Up Small-->
-												<div class="vlt-counter-up-small" data-ending-number="700" data-animation-speed="1500" data-delimiter=""><span class="counter">0</span><sup> </sup>
-													<h6 class="vlt-display-1">Hours of stem<br>taught</h6>
-												</div>
-											</div>
+						<div class="hero-wrap">
+							<div class="vlt-animated-block" style="animation-delay:0s; animation-duration:700ms;">
+								<div class="hero-badge">
+									<span class="hero-badge-dot"></span>
+									AVAILABLE SPRING 2026 &middot; FIRMWARE &middot; ROBOTICS &middot; ML
+								</div>
+								<div class="hero-name">
+									<div class="hero-name-first">Pranav</div>
+									<div class="hero-name-last">Yerramaneni</div>
+								</div>
+								<div class="hero-mid">
+									<div class="hero-bio">
+										I build <span class="hero-accent">real-time control systems</span> for humanoid robots,
+										ship <span class="hero-accent">edge-ML</span> on constrained hardware, and teach
+										robotics to the next generation.
+									</div>
+									<div class="hero-info">
+										<div class="hero-info-block">
+											<div class="hero-info-label">CURRENTLY</div>
+											<div class="hero-info-text">Firmware Engineer Intern @ <a href="https://www.novarobotics.us/" class="hero-info-link" target="_blank" rel="noopener">Nova Robotics</a> &mdash; PID/LQR on ROS2, sim-to-real via Isaac &amp; MuJoCo</div>
 										</div>
-										<div class="vlt-gap-40"></div><a class="vlt-link has-white-color" href="https://www.youtube.com/watch?v=5-nJNGnKnes">Watch Introduction</a>
+										<div class="hero-info-block">
+											<div class="hero-info-label">NEXT</div>
+											<div class="hero-info-text">UC Santa Cruz &middot; Undergraduate &middot; 2026 &ndash; 2029</div>
+										</div>
+									</div>
+								</div>
+								<div class="hero-cta">
+									<a class="hero-btn hero-btn--primary" href="#Projects">SEE THE WORK &rarr;</a>
+									<a class="hero-btn hero-btn--secondary" href="resume.pdf" target="_blank">R&Eacute;SUM&Eacute; &rarr;</a>
+								</div>
+								<div class="hero-stats">
+									<div class="hero-stat">
+										<div class="vlt-counter-up-small hero-stat-num" data-ending-number="500" data-animation-speed="3000" data-delimiter=""><span class="counter">0</span><sup>+</sup></div>
+										<div class="hero-stat-label">STUDENTS IMPACTED</div>
+										<div class="hero-stat-sub">K&ndash;5 STEM programs</div>
+									</div>
+									<div class="hero-stat">
+										<div class="vlt-counter-up-small hero-stat-num" data-ending-number="36" data-animation-speed="3000" data-delimiter=""><span class="counter">0</span><sup></sup></div>
+										<div class="hero-stat-label">WORLD RANK &middot; FTC</div>
+										<div class="hero-stat-sub">out of 7,681 teams</div>
+									</div>
+									<div class="hero-stat">
+										<div class="vlt-counter-up-small hero-stat-num" data-ending-number="100" data-animation-speed="3000" data-delimiter=""><span class="counter">0</span><sup>ms</sup></div>
+										<div class="hero-stat-label">E2E VR TELEOP LATENCY</div>
+										<div class="hero-stat-sub">Unity / OpenXR / WebRTC</div>
+									</div>
+									<div class="hero-stat">
+										<div class="vlt-counter-up-small hero-stat-num" data-ending-number="1" data-animation-speed="3000" data-delimiter=""><span class="counter">0</span><sup> M+</sup></div>
+										<div class="hero-stat-label">RECORDS MIGRATED</div>
+										<div class="hero-stat-sub">Tourable &middot; Cornell-backed</div>
 									</div>
 								</div>
 							</div>
@@ -514,6 +540,41 @@
 	<script src="js/scripts-vlt-plugins.js"></script>
 	<script src="js/scripts-vlt-helpers.js"></script>
 	<script src="js/scripts-vlt-controllers.js"></script>
+	<script>
+		(function ($) {
+			var heroSection = document.querySelector('.vlt-section[data-anchor="Home"]');
+			if (!heroSection) return;
+			var counterEls = heroSection.querySelectorAll('.hero-stat-num');
+
+			function easeOutQuart(t) { return 1 - Math.pow(1 - t, 4); }
+
+			function animateCounter(span, endValue, duration) {
+				var startTime = null;
+				function step(ts) {
+					if (!startTime) startTime = ts;
+					var progress = Math.min((ts - startTime) / duration, 1);
+					span.textContent = Math.round(easeOutQuart(progress) * endValue);
+					if (progress < 1) requestAnimationFrame(step);
+				}
+				requestAnimationFrame(step);
+			}
+
+			$(window).on('vlt.change-slide', function () {
+				if (!$(heroSection).hasClass('active')) return;
+				counterEls.forEach(function (el) {
+					var endValue = parseInt(el.getAttribute('data-ending-number'), 10) || 0;
+					var duration = parseInt(el.getAttribute('data-animation-speed'), 10) || 3000;
+					var span = el.querySelector('.counter');
+					if (!span) return;
+					setTimeout(function () {
+						$(span).stop(true, true);
+						span.textContent = '0';
+						animateCounter(span, endValue, duration);
+					}, 520);
+				});
+			});
+		})(jQuery);
+	</script>
 	<script>
 		(function () {
 			var section = document.querySelector('.vlt-section[data-anchor="Services"]');
