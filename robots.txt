@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# Machine-readable versions of this site, for AI agents and crawlers:
+#   https://devmello.xyz/llms.txt        short index
+#   https://devmello.xyz/llms-full.txt   full text as Markdown
+#   https://devmello.xyz/ai/             full text as plain HTML

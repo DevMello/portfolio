@@ -1,0 +1,28 @@
+# Pranav Yerramaneni
+
+> Firmware and robotics engineer in Santa Clara, California: real-time control for humanoid robots, machine learning on small hardware, and robotics classes for elementary-school kids. B.S. Computer Science at UC Santa Cruz, class of 2029. Open to firmware, robotics and applied-ML internships for summer 2027.
+
+The site is a single page. Everything on it is in the full-text file below; the other links are the primary sources behind it.
+
+## Site
+
+- [Full text of the site, Markdown](https://devmello.xyz/llms-full.txt): experience, projects, skills, education, videos, contact. Start here.
+- [Agent page, HTML](https://devmello.xyz/ai/): the same text as a plain web page without scripts or navigation.
+- [Home page, HTML](https://devmello.xyz/): the human version, with a live reaction-wheel pendulum demo.
+
+## Primary sources
+
+- [GitHub, DevMello](https://github.com/DevMello): 43 public repositories.
+- [LinkedIn](https://www.linkedin.com/in/pranav-yerr/): roles, education and endorsements.
+- [Blog](https://blog.devmello.xyz/): notes on projects and how they went.
+- [Voyager documentation](https://voyager.devmello.xyz/): the pathfinding library he maintains for FTC robots.
+- [CometKits](https://cometkits.github.io/): the robotics-kit program he co-founded for elementary schools.
+
+## Optional
+
+- [Nova Robotics](https://www.novarobotics.us/): employer, firmware engineer intern, February 2025 to March 2026.
+- [Wilcox Robotics, FTC team 8872](https://wilcox-robotics-team.com/): the FIRST Tech Challenge team he co-captained.
+- [Nova humanoid video, MP4](https://devmello.xyz/videos/nova-humanoid.mp4): 10 seconds, the dual-reaction-wheel humanoid balancing on one leg.
+- [FTC robot video, MP4](https://devmello.xyz/videos/ftc-robot.mp4): 31 seconds, the 2024-25 season robot on the practice field.
+
+Contact: pranav@devmello.xyz. Last updated 2026-09-12.
